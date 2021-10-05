@@ -1,0 +1,159 @@
+@charset "utf-8";
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+html{
+    scroll-behavior:smooth;
+}
+
+@font-face{
+    src:url("../font/AkayaTelivigala-Regular.ttf");
+    font-family:miletra;
+} 
+@font-face{
+    src:url("../font/Montserrat-Black.ttf");
+    font-family:mih2;
+} 
+
+body{
+    background-image: url(../ima/leaf-176722_1280.jpg);
+    background-size: cover;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 80px;  
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+.logotitulo{
+    width:40%;
+    height:60px;
+    display: flex;
+    background-color: 0;
+    align-items: center;
+    justify-content: left;
+    
+   }
+   .logo{
+       width: 70px;
+       height: 70px;
+       background-image: url('../ima/t3.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+       border-radius: 50%;
+       margin-top: 10px;
+      
+       
+   }
+
+
+   .titulop{
+    background-color:0;
+    width:80%;
+    height:50px;
+    font-family: miletra;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    
+    color: #fff;
+    }
+
+
+ 
+
+.navbar li{
+
+background-size:cover ;
+border-radius: 50%;
+padding:5px;
+display: inline;
+text-align: center;
+
+
+}
+.navbar{
+    background-color:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a {
+
+text-decoration: none; 
+
+
+
+}
+
+.navbar a:hover{
+background-color: #16df04;
+color: #fff;
+padding: 10px;
+}
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 400px;
+}
+
+[type="text"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top:20px;
+    background-color: transparent;
+    border: 0;
+    border-bottom:1px solid #16df04;
+}
+
+[type="submit"]{
+   
+    background-color: #16df04;
+    border: 0;
+    width:80px;
+    height: 30px;
+    border-radius: 50px 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    
+}
+form{
+    text-align: center;
+}
+legend{
+ font-family: miletra;   
+ font-size: 30px;
+ margin: auto;
+}
+
+
+fieldset{
+    width: 40%;
+    height:300px;
+    padding-bottom: 20px;
+    border:1px solid #bbd6e6;
+
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(76,255,36,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(76,255,36,0);
+}
